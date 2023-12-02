@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Update</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        .container {
+            padding: 10%;
+
+        }
+        .box {
+            height:200px;
+            width:300px;
+            color:grey;
+            background-color: rgba(245, 245, 220, 0.727);
+        }
+        img {
+            height:70px;
+            border-radius: 50%;
+        }
+        .profile {
+            display: flex;
+            gap:10px;
+        }
+        .btn {
+            text-align: center;
+        }
+        button {
+            border:0;
+            height:30px;
+            width: 100px;
+            border-radius: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+            color:wheat;
+            background-color: rgba(42, 165, 128, 0.785);
+        }
+        .cancel {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="profile">
+          <img src="lady.png" alt="lady" />
+          <div class="box"><p>What's going on?</p></div>
+       </div> 
+       <div class="btn">
+         <button>SHARE</button>
+         <button class="cancel">CANCEL</button>
+       </div>
+    </div>
+</body>
+
